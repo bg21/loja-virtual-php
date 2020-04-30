@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+}
+div.clear{
+    clear: both;
+}
+div.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    padding: 20px;
+    background-color: #e57373;
+}
+header >.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+}
+
+div.produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.produtos div.single_wraper_img{
+    min-height: 300px;
+}
+div.produtos div.single_wraper_img img{
+    max-width:300px;
+    max-height:150px;
+    min-height: 150px;
+    width: 100%;
+    height: auto;
+}
+div.produtos div.single_produtos{
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div.produtos div.single_produtos div.single_wraper{
+    margin-right: 20px;
+    border: 1px solid #333;
+}
+div.produtos div.single_produtos div.single_wraper:last-child{
+    margin-right: none;
+}
+div.produtos div.single_produtos div.single_wraper a{
+    background-color: cadetblue;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px auto;
+}
+div.pedidos{
+    margin: 20px 0;
+}
+div.pedidos table{
+    width: 100%;
+    border-collapse: collapse;
+}
+div.pedidos table tr:first-child td{
+    font-weight: bold;
+}
+div.pedidos table tr td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+div.finalizar_pedido{
+    color: red;
+    float: right;
+}
+a.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+a.pagar{
+    background-color: green;
+    display: inline-block;
+    color: #fff;
+}
